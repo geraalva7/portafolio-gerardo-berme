@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gerardo Berme — Editor de Video</title>
+<meta name="description" content="Gerardo Berme, editor de video especializado en YouTube, Reels virales, Podcast y Vlogs. Más de 3 años ayudando a canales que venden un producto a crecer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#top" class="logo">Gerardo Berme</a>
+    <nav class="nav" id="nav">
+      <a href="#proyectos">Proyectos</a>
+      <a href="#clientes">Clientes</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#sobre-mi">Sobre mí</a>
+    </nav>
+    <a href="https://wa.me/525584420697" target="_blank" rel="noopener" class="btn btn-primary btn-small nav-cta">Hablemos</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-glow"></div>
+    <div class="container hero-grid">
+      <div class="hero-inner">
+        <p class="eyebrow">Editor de video</p>
+        <h1>Editor que entiende<br>el algoritmo de <span class="accent">YouTube</span></h1>
+        <p class="hero-sub">Más de 3 años editando para canales que venden un producto. Entiendo el comportamiento del algoritmo y de la audiencia para crear contenido que retiene, engancha y convierte.</p>
+        <div class="hero-actions">
+          <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+          <a href="https://wa.me/525584420697" target="_blank" rel="noopener" class="btn btn-ghost">Contactar por WhatsApp</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/gerardo-berme.jpg" alt="Gerardo Berme, editor de video">
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section class="section section-alt" id="proyectos">
+    <div class="container">
+      <p class="eyebrow">Trabajo</p>
+      <h2>Proyectos</h2>
+      <p class="section-sub">Filtra por formato para ver ejemplos de cada tipo de edición.</p>
+
+      <div class="filters" id="filters">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="youtube">YouTube</button>
+        <button class="filter-btn" data-filter="vlogs">Vlogs</button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+
+        <article class="project-card" data-category="youtube" data-video="https://youtu.be/r17guy2Fjgg">
+          <div class="project-thumb">
+            <span class="play-icon">▶</span>
+            <span class="tag">YouTube</span>
+          </div>
+          <h3>Analicé 85,000 Skills de Claude</h3>
+          <p>Para el canal de Víctor Pérez — edición de contenido técnico con ritmo para mantener retención.</p>
+        </article>
+
+        <article class="project-card" data-category="vlogs" data-video="https://www.youtube.com/watch?v=dCGFRRN0f6I">
+          <div class="project-thumb">
+            <span class="play-icon">▶</span>
+            <span class="tag">Vlog</span>
+          </div>
+          <h3>100,000€ de coche, le hago fotos</h3>
+          <p>Para el canal de Soul Younger — storytelling de producto con cuidado en ritmo y color.</p>
+        </article>
+
+        <article class="project-card" data-category="youtube" data-video="https://www.youtube.com/watch?v=5MKGtCpHF5E">
+          <div class="project-thumb">
+            <span class="play-icon">▶</span>
+            <span class="tag">YouTube</span>
+          </div>
+          <h3>Probando productos de YouTubers</h3>
+          <p>Edición de video de entretenimiento con ritmo dinámico para mantener la atención.</p>
+        </article>
+
+        <article class="project-card" data-category="vlogs" data-video="https://www.youtube.com/watch?v=0YpYAq3w23o">
+          <div class="project-thumb">
+            <span class="play-icon">▶</span>
+            <span class="tag">Vlog</span>
+          </div>
+          <h3>Apuesto 600€ en una carrera con Anas</h3>
+          <p>Para el canal de Soul Younger — vlog de reto con edición ágil y cortes cómicos.</p>
+        </article>
+
+        <article class="project-card" data-category="youtube" data-video="https://www.youtube.com/watch?v=Ef0KDGFE-Gk">
+          <div class="project-thumb">
+            <span class="play-icon">▶</span>
+            <span class="tag">YouTube</span>
+          </div>
+          <h3>12 meses de Claude Code: 5 errores que nunca debes cometer</h3>
+          <p>Para el canal de Víctor Pérez — video tutorial con estructura clara y ritmo pensado para retención.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIENTES -->
+  <section class="section" id="clientes">
+    <div class="container">
+      <p class="eyebrow">Confianza</p>
+      <h2>He trabajado con</h2>
+      <div class="clients-grid">
+        <div class="client-card">
+          <img src="assets/clients/soul-younger.png" alt="Soul Younger" class="client-photo">
+          <span class="client-name">Soul Younger</span>
+          <span class="client-subs">+50K suscriptores</span>
+        </div>
+        <div class="client-card">
+          <img src="assets/clients/miguel-ortiz.png" alt="Miguel Ortiz" class="client-photo">
+          <span class="client-name">Miguel Ortiz</span>
+          <span class="client-subs">+350K suscriptores</span>
+        </div>
+        <div class="client-card">
+          <img src="assets/clients/victor-perez.png" alt="Víctor PerezIA" class="client-photo">
+          <span class="client-name">Víctor PerezIA</span>
+          <span class="client-subs">+30K suscriptores</span>
+        </div>
+        <div class="client-card">
+          <img src="assets/clients/tonete.png" alt="Toñete" class="client-photo">
+          <span class="client-name">Toñete</span>
+          <span class="client-subs">+50K suscriptores</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section section-contact" id="contacto">
+    <div class="container contact-inner">
+      <p class="eyebrow">Contacto</p>
+      <h2>¿Tienes un canal que<br>necesita crecer?</h2>
+      <p class="section-sub">Hablemos de tu proyecto. Respondo rápido por WhatsApp.</p>
+      <a href="https://wa.me/525584420697" target="_blank" rel="noopener" class="btn btn-primary btn-large">Escribir por WhatsApp</a>
+      <div class="social-links">
+        <a href="#" target="_blank" rel="noopener">Instagram</a>
+        <a href="#" target="_blank" rel="noopener">YouTube</a>
+        <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE MI -->
+  <section class="section" id="sobre-mi">
+    <div class="container about-grid">
+      <div>
+        <p class="eyebrow">Sobre mí</p>
+        <h2>Edición pensada<br>para crecer canales</h2>
+        <p class="about-text">
+          Soy Gerardo Berme, editor de video con más de 3 años de experiencia trabajando con canales
+          enfocados en vender un producto. No solo edito para que se vea bien: edito para retener,
+          para que el algoritmo empuje el contenido y para que cada video cumpla un objetivo de negocio.
+        </p>
+        <p class="about-text">
+          Trabajo YouTube, Reels en formato viral, Podcast y Vlogs — adaptando ritmo, cortes y narrativa
+          a cada formato y plataforma.
+        </p>
+      </div>
+      <div class="about-side">
+        <div class="stat-card">
+          <span class="stat-number">3+</span>
+          <span class="stat-label">Años de experiencia</span>
+        </div>
+        <div class="tools">
+          <span class="tools-label">Herramientas</span>
+          <div class="tool-chips">
+            <span class="chip">Premiere Pro</span>
+            <span class="chip">After Effects</span>
+          </div>
+        </div>
+        <div class="formats">
+          <span class="tools-label">Formatos</span>
+          <div class="tool-chips">
+            <span class="chip">YouTube</span>
+            <span class="chip">Reels virales</span>
+            <span class="chip">Podcast</span>
+            <span class="chip">Vlogs</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>© <span id="year"></span> Gerardo Berme.</span>
+    <span>Editor de video.</span>
+  </div>
+</footer>
+
+<!-- MODAL -->
+<div class="modal" id="videoModal">
+  <div class="modal-backdrop" id="modalBackdrop"></div>
+  <div class="modal-content">
+    <button class="modal-close" id="modalClose" aria-label="Cerrar">✕</button>
+    <div class="modal-video" id="modalVideo"></div>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
