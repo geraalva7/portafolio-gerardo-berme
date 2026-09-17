@@ -1,19 +1,5 @@
 document.getElementById('year').textContent = new Date().getFullYear();
 
-// Hero live clock (Mexico City time)
-const heroClock = document.getElementById('heroClock');
-if (heroClock) {
-  const updateClock = () => {
-    const time = new Date().toLocaleTimeString('es-MX', {
-      timeZone: 'America/Mexico_City',
-      hour12: false,
-    });
-    heroClock.textContent = `LOCAL / ${time}`;
-  };
-  updateClock();
-  setInterval(updateClock, 1000);
-}
-
 // Mobile nav toggle
 const navToggle = document.getElementById('navToggle');
 const nav = document.getElementById('nav');
