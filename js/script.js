@@ -80,8 +80,10 @@ function toEmbedUrl(url) {
   }
 }
 
-// Set real video thumbnails as previews on project cards
-projectCards.forEach((card) => {
+// Set real video thumbnails as previews (project cards + hero video card)
+const videoCards = document.querySelectorAll('.video-card');
+
+videoCards.forEach((card) => {
   const youtubeId = getYouTubeId(card.dataset.video);
   if (!youtubeId) return;
 
@@ -115,7 +117,7 @@ function closeModal() {
   modalVideo.innerHTML = '';
 }
 
-projectCards.forEach((card) => {
+videoCards.forEach((card) => {
   card.addEventListener('click', () => openModal(card.dataset.video));
 });
 

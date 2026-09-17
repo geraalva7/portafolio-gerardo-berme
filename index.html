@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=3">
+<link rel="stylesheet" href="css/style.css?v=4">
 </head>
 <body>
 
@@ -36,36 +36,53 @@
     <div class="hero-dots hero-dots-1"><span></span><span></span><span></span><span></span></div>
     <div class="hero-dots hero-dots-2"><span></span><span></span><span></span><span></span></div>
 
-    <div class="container hero-topline">
-      <span class="hero-index">01</span>
-      <span class="hero-taglabel">// EDITOR DE VIDEO</span>
-      <span class="hero-clock" id="heroClock">LOCAL &nbsp;/&nbsp; --:--:--</span>
-    </div>
+    <div class="container hero-split">
+      <div class="hero-left">
+        <div class="hero-topline">
+          <span class="hero-index">01</span>
+          <span class="hero-taglabel">// EDITOR DE VIDEO</span>
+          <span class="hero-clock" id="heroClock">LOCAL &nbsp;/&nbsp; --:--:--</span>
+        </div>
 
-    <div class="hero-chip hero-chip-role">
-      <span class="chip-icon chip-icon-tool">✎</span>
-      <div>
-        <div class="chip-title">EDITOR DE VIDEO</div>
-        <div class="chip-sub">PREMIERE PRO · AFTER EFFECTS</div>
-      </div>
-    </div>
+        <h1 class="hero-name">GERARDO</h1>
 
-    <div class="hero-center">
-      <h1 class="hero-giant">GERARDO</h1>
+        <div class="hero-chips-row">
+          <div class="hero-chip hero-chip-role">
+            <span class="chip-icon chip-icon-tool">✎</span>
+            <div>
+              <div class="chip-title">EDITOR DE VIDEO</div>
+              <div class="chip-sub">PREMIERE PRO · AFTER EFFECTS</div>
+            </div>
+          </div>
 
-      <div class="hero-chip hero-chip-available">
-        <span class="chip-icon">&#127760;</span>
-        <div>
-          <div class="chip-title">DISPONIBLE PARA PROYECTOS</div>
-          <div class="chip-sub">TRABAJO 100% REMOTO</div>
+          <div class="hero-chip hero-chip-available">
+            <span class="chip-icon">&#127760;</span>
+            <div>
+              <div class="chip-title">DISPONIBLE PARA PROYECTOS</div>
+              <div class="chip-sub">TRABAJO 100% REMOTO</div>
+            </div>
+          </div>
+        </div>
+
+        <p class="hero-sub">Editor que entiende el algoritmo de <span class="accent">YouTube</span> — más de 3 años ayudando a canales que venden un producto a crecer.</p>
+
+        <div class="hero-actions">
+          <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+          <a href="https://wa.me/525584420697" target="_blank" rel="noopener" class="btn btn-ghost">Contactar por WhatsApp</a>
         </div>
       </div>
 
-      <p class="hero-sub">Editor que entiende el algoritmo de <span class="accent">YouTube</span> — más de 3 años ayudando a canales que venden un producto a crecer.</p>
-
-      <div class="hero-actions">
-        <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
-        <a href="https://wa.me/525584420697" target="_blank" rel="noopener" class="btn btn-ghost">Contactar por WhatsApp</a>
+      <div class="hero-right">
+        <div class="hero-video-card video-card" data-video="https://youtu.be/r17guy2Fjgg">
+          <div class="project-thumb">
+            <span class="play-icon">▶</span>
+            <span class="tag">Reel</span>
+          </div>
+          <div class="hero-video-caption">
+            <span class="hero-video-eyebrow">Mira mi trabajo</span>
+            <span class="hero-video-title">Analicé 85,000 Skills de Claude</span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -85,7 +102,7 @@
 
       <div class="projects-grid" id="projectsGrid">
 
-        <article class="project-card" data-category="youtube" data-video="https://youtu.be/r17guy2Fjgg">
+        <article class="project-card video-card" data-category="youtube" data-video="https://youtu.be/r17guy2Fjgg">
           <div class="project-thumb">
             <span class="play-icon">▶</span>
             <span class="tag">YouTube</span>
@@ -94,7 +111,7 @@
           <p>Para el canal de Víctor Pérez — edición de contenido técnico con ritmo para mantener retención.</p>
         </article>
 
-        <article class="project-card" data-category="vlogs" data-video="https://www.youtube.com/watch?v=dCGFRRN0f6I">
+        <article class="project-card video-card" data-category="vlogs" data-video="https://www.youtube.com/watch?v=dCGFRRN0f6I">
           <div class="project-thumb">
             <span class="play-icon">▶</span>
             <span class="tag">Vlog</span>
@@ -103,7 +120,7 @@
           <p>Para el canal de Soul Younger — storytelling de producto con cuidado en ritmo y color.</p>
         </article>
 
-        <article class="project-card" data-category="youtube" data-video="https://www.youtube.com/watch?v=5MKGtCpHF5E">
+        <article class="project-card video-card" data-category="youtube" data-video="https://www.youtube.com/watch?v=5MKGtCpHF5E">
           <div class="project-thumb">
             <span class="play-icon">▶</span>
             <span class="tag">YouTube</span>
@@ -112,7 +129,7 @@
           <p>Edición de video de entretenimiento con ritmo dinámico para mantener la atención.</p>
         </article>
 
-        <article class="project-card" data-category="vlogs" data-video="https://www.youtube.com/watch?v=0YpYAq3w23o">
+        <article class="project-card video-card" data-category="vlogs" data-video="https://www.youtube.com/watch?v=0YpYAq3w23o">
           <div class="project-thumb">
             <span class="play-icon">▶</span>
             <span class="tag">Vlog</span>
@@ -121,7 +138,7 @@
           <p>Para el canal de Soul Younger — vlog de reto con edición ágil y cortes cómicos.</p>
         </article>
 
-        <article class="project-card" data-category="youtube" data-video="https://www.youtube.com/watch?v=Ef0KDGFE-Gk">
+        <article class="project-card video-card" data-category="youtube" data-video="https://www.youtube.com/watch?v=Ef0KDGFE-Gk">
           <div class="project-thumb">
             <span class="play-icon">▶</span>
             <span class="tag">YouTube</span>
@@ -238,6 +255,6 @@
   </div>
 </div>
 
-<script src="js/script.js?v=2"></script>
+<script src="js/script.js?v=3"></script>
 </body>
 </html>
